@@ -281,7 +281,6 @@ void Quash::createQuash(string str) {
 	for(int i = 0; i < length; i++)
 	{
 		string ch = str.substr(i, 1);
-		//cout << ch << " ";
 		if(comma.compare(ch) == 0)
 		{
 			string op = str.substr(j, i-j);
