@@ -1,5 +1,5 @@
-all: prog1
+all: prog1.out
 
-prog1: Quash.cpp Quash.h
-	g++ -o prog1 Quash.cpp Quash.h
+prog1.out: Quash.cpp Quash.h
+	g++ -o prog1.out Quash.cpp Quash.h
 
