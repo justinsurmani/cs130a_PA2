@@ -334,6 +334,11 @@ void Quash::performOp(string str) {
 }
 
 void Quash::print() {
+	if(this->total == 0)
+	{
+		cout << endl;
+		return;
+	}
 	for(int i = 1; i <= this->total; i++)
 	{
 		if(i == this->total)
